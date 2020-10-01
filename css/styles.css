@@ -1,0 +1,121 @@
+
+body{text-align: center;}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif;}
+p{color:#8f8f8f}
+
+
+/* heading */
+.main-heading{color:#ebd4d4;
+   font-size: 3rem;
+   line-height: 1.5;}
+
+.container-fluid{padding:7% 15%;}
+
+.icon{color:#835858;
+     margin-bottom: 1rem;}
+
+.icon:hover{color:#463333}
+
+.button{font-family: 'Ubuntu', sans-serif;}
+
+.circle{display: block;}
+
+.features-row{padding: 5%;}
+
+.navbar{padding:0 0 4.5rem 0}
+
+.navbar-brand{font-family: 'Montserrat Alternates', sans-serif;
+              font-size: 2rem;  }
+
+.nav-item{padding: 0 18px;}
+
+.nav-link{font-size: 1.2rem;
+          font-family: 'Montserrat-Light'}
+
+/* Download buttons */
+
+.download-button{margin: 5% 3% 5% 0;}
+
+/* sections */
+.colored-section{
+  background-color:#463333;
+  color:#ebd4d4;
+}
+
+.white-section{
+  background-color: #ebd4d4;
+}
+/* title section */
+
+#title .container-fluid{padding: 3% 15% 7%;text-align: left;}
+/* title image */
+.title-image{width:50%;
+             transform: rotate(25deg);
+             position: absolute;
+             left:25%}
+
+/* features section */
+
+#features{
+
+          position: relative;
+          z-index: 1}
+
+/* testimonial section */
+
+#testimonials{
+  background-color: #835858;
+
+}
+
+.testimonial-img{width: 10%;
+                 border-radius: 100%;
+                 margin: 20px }
+
+/* press section */
+
+#press{
+      background-color: #835858;
+      padding-bottom: 3%}
+
+.press-logo{width: 15%;
+            margin:20px 20px 50px}
+
+@media (max-width:1024px)
+{
+  .title-image{position:static;
+               transform: rotate(0);}}
+/* cta section */
+
+#cta{
+      font-family: 'Montserrat', sans-serif;
+        color:#ebd4d4;}
+
+.cta-button{font-family: 'Ubuntu', sans-serif;
+            margin: 5% 3%;}
+/* footer section */
+
+#footer{background-color: #ebd4d4;
+        }
+
+.footer_icon{margin:5% 2%}
+
+/* pricing section */
+
+#pricing{
+         background-color:#ebd4d4;
+        
+         padding-left: 5%;
+         padding-right: 5%;
+         padding-top: 7%}
+
+.pricing-row{
+            margin-top: 50px;
+            margin-bottom: 50px;}
+
+.price{color:black;
+      font-size: 1rem;
+      padding-bottom: 0}
+
+.heading{background-color: #ebd4d4;
+        color: #463333}
